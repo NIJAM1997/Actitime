@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			
+			<include name="Functional test"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.actitime.testscript.TestData"/>
+      <class name="com.actitime.testscript.CapitalTask"/>
+      <class name="Data_Driven_Testing.Customer_Module"/>
+      <class name="com.actitime.testscript.ClientModule"/>
+      <class name="com.actitime.testscript.CustomerModule1"/>
+      <class name="Assertion.VerifyTitle"/>
+      <class name="Assertion.Verify_Title_TestNG"/>
+      <class name="com.actitime.testscript.DemoTesting"/>
+      <class name="Annotation.CustomerModule"/>
+      <class name="Program_Up_To_File_Handling_ListBox.DemoA"/>
+      <class name="com.actitime.testscript.BuyerCustomer"/>
+      <class name="com.actitime.testscript.Capitalproject"/>
+      <class name="com.actitime.testscript.CreateTask"/>
+      <class name="com.actitime.testscript.CustomerModule"/>
+      <class name="Assertion.VErify_Title_TestNG2"/>
+      <class name="com.actitime.testscript.CapitalModule"/>
+      <class name="Assertion.Verify_Title_TestNG1"/>
+      <class name="com.actitime.testscript.ClientProject"/>
+      <class name="com.actitime.testscript.BuyerProject"/>
+      <class name="com.actitime.testscript.ClientTask"/>
+      <class name="com.actitime.testscript.VendorModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
