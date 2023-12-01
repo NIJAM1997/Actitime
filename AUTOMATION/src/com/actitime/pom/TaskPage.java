@@ -28,6 +28,24 @@ public class TaskPage {
 	@FindBy(xpath="//span[text()='Create Customer']")
 	private WebElement crcmrbtn;
 	
+	@FindBy(xpath="//div[text()='+ New Project']")
+	private WebElement prjbtn;
+	
+	@FindBy(id="projectPopup_projectNameField")
+	private WebElement prjnmtbx;
+	
+	@FindBy(xpath="(//button[@class='x-btn-text'])[1]")
+	private WebElement ctrdpr;
+	
+	@FindBy(xpath="(//a[@class='x-menu-item'])[7]")
+	private WebElement sltctr;
+	
+	@FindBy(id="projectPopup_projectDescriptionField")
+	private WebElement pjrtdsc;
+	
+	@FindBy(xpath="//span[text()='Create Project']")
+	private WebElement ctrbtn;
+	
 	public TaskPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -67,12 +85,34 @@ public class TaskPage {
 		crcmrbtn.click();
 	}
 	
+	public void setNewProject()
+	{
+		prjbtn.click();
+	}
+	 
+	public void setEnterProjectName(String projectname)
+	{
+		prjnmtbx.sendKeys(projectname);;
+	}
 	
+	public void setCustomerDropdown()
+	{
+		ctrdpr.click();
+	}
 	
+	public void setSelectCustomer()
+	{
+		sltctr.click();
+	}
 	
+	public void setprojectDiscription(String disciption)
+	{
+		pjrtdsc.sendKeys(disciption);;
+	}
 	
-	
-	
+	public void setCreateButton() {
+		ctrbtn.click();
+	}
 	
 	
 	

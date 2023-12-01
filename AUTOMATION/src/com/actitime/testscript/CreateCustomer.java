@@ -38,7 +38,21 @@ public class CreateCustomer extends BaseClass{
 		Thread.sleep(2000);
 		t.setOurComapany();
 		Thread.sleep(2000);
-		t.setCreateCustomer();	
+		t.setCreateCustomer();
+		Thread.sleep(2000);
+		t.setAddNew();
+		Thread.sleep(2000);
+		t.setNewProject();
+		Thread.sleep(2000);
+		t.setEnterProjectName(f.getExcelData("CreateCustomer", 2, 2));
+		Thread.sleep(2000);
+		t.setCustomerDropdown();
+		Thread.sleep(2000);
+		t.setSelectCustomer();
+		Thread.sleep(2000);
+		t.setprojectDiscription(f.getExcelData("CreateCustomer", 2, 3));
+		t.setCreateButton();
+		
 	}
 	
 }

@@ -17,40 +17,40 @@
       <![CDATA[Close browser]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-30T17:27:02 IST" name="Default suite" finished-at="2023-11-30T17:27:35 IST" duration-ms="32948">
+  <suite started-at="2023-12-01T08:41:07 IST" name="Default suite" finished-at="2023-12-01T08:41:59 IST" duration-ms="51992">
     <groups>
     </groups>
-    <test started-at="2023-11-30T17:27:02 IST" name="Default test" finished-at="2023-11-30T17:27:35 IST" duration-ms="32948">
+    <test started-at="2023-12-01T08:41:07 IST" name="Default test" finished-at="2023-12-01T08:41:59 IST" duration-ms="51992">
       <class name="com.actitime.testscript.CreateCustomer">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-11-30T17:27:02 IST" name="openBrowser" finished-at="2023-11-30T17:27:08 IST" duration-ms="5480" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-12-01T08:41:07 IST" name="openBrowser" finished-at="2023-12-01T08:41:22 IST" duration-ms="14936" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open Browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-11-30T17:27:08 IST" name="login" finished-at="2023-11-30T17:27:12 IST" duration-ms="4307" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-12-01T08:41:22 IST" name="login" finished-at="2023-12-01T08:41:26 IST" duration-ms="4420" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-11-30T17:27:12 IST" name="createCustomer" finished-at="2023-11-30T17:27:32 IST" duration-ms="19954" status="PASS">
+        <test-method signature="createCustomer()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-12-01T08:41:26 IST" name="createCustomer" finished-at="2023-12-01T08:41:58 IST" duration-ms="31964" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Customer Created]]>
             </line>
           </reporter-output>
         </test-method> <!-- createCustomer -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-11-30T17:27:32 IST" name="logout" finished-at="2023-11-30T17:27:35 IST" duration-ms="2801" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-12-01T08:41:58 IST" name="logout" finished-at="2023-12-01T08:41:59 IST" duration-ms="251" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closebroser()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-11-30T17:27:35 IST" name="closebroser" finished-at="2023-11-30T17:27:35 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="closebroser()[pri:0, instance:com.actitime.testscript.CreateCustomer@23e84203]" started-at="2023-12-01T08:41:59 IST" name="closebroser" finished-at="2023-12-01T08:41:59 IST" duration-ms="352" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close browser]]>
